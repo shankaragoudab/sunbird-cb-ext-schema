@@ -755,6 +755,32 @@
         "Standalone Assessment",
         "Moderated Assessment"
       ]
+    },
+    "assessmentType" : {
+      "type" : "string"
+    },
+    "noOfSection": {
+      "type": "number"
+    },
+    "overallPassMarks": {
+      "type": "number"
+    },
+    "negativeMarkingPercentage": {
+      "type": "string"
+    },
+    "showMarks": {
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "randomization": {
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No"
+      ]
     }
   },
   "additionalProperties": false
