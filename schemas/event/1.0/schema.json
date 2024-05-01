@@ -244,6 +244,16 @@
         },
         "location": {
             "type": "object"
+        },
+        "artifactUrl": {
+            "type": "string"
+        },
+        "position": {
+            "type": "string",
+            "enum": [
+                "Open",
+                "Closed"
+            ]
         }
     }
 }
