@@ -786,16 +786,16 @@
       "type": "object",
       "properties": {
         "easy": {
-          "type": "integer"
+          "type": "number"
         },
         "tough": {
-          "type": "integer"
+          "type": "number"
         },
         "hard": {
-          "type": "integer"
+          "type": "number"
         },
         "hot": {
-          "type": "integer"
+          "type": "number"
         }
       }
     }
