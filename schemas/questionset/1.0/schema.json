@@ -782,7 +782,7 @@
         "No"
       ]
     },
-    "questionLevel": {
+    "questionLevelDefinition": {
       "type": "object",
       "properties": {
         "easy": {
