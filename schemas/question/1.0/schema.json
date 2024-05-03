@@ -630,6 +630,15 @@
         "Standalone Assessment",
         "Moderated Assessment"
       ]
+    },
+    "questionLevel": {
+      "type": "string",
+      "enum": [
+        "easy",
+        "hard",
+        "tough",
+        "hot"
+      ]
     }
   },
   "additionalProperties": false

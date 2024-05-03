@@ -781,6 +781,23 @@
         "Yes",
         "No"
       ]
+    },
+    "questionLevelDefinition": {
+      "type": "object",
+      "properties": {
+        "easy": {
+          "type": "number"
+        },
+        "tough": {
+          "type": "number"
+        },
+        "hard": {
+          "type": "number"
+        },
+        "hot": {
+          "type": "number"
+        }
+      }
     }
   },
   "additionalProperties": false
