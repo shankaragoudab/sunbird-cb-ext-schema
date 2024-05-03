@@ -1477,6 +1477,12 @@
         },
         "resourceCategory": {
             "type": "string"
+        },
+        "competencies_v5": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
         }
     }
 }
