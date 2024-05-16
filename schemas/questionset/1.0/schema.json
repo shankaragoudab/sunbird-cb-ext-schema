@@ -798,6 +798,18 @@
           "type": "number"
         }
       }
+    },
+    "sectionalTimeBound": {
+      "type": "string"
+    },
+    "sectionalPassPercentage": {
+      "type": "string"
+    },
+    "questionTagging": {
+      "type": "string"
+    },
+    "totalMarksofTest": {
+      "type": "number"
     }
   },
   "additionalProperties": false
