@@ -798,6 +798,23 @@
           "type": "number"
         }
       }
+    },
+    "sectionalTimeBound": {
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "questionTagging": {
+      "type": "string",
+      "enum": [
+        "Proficiency",
+        "EMDH"
+      ]
+    },
+    "totalMarks": {
+      "type": "number"
     }
   },
   "additionalProperties": false
