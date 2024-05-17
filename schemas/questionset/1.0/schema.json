@@ -800,15 +800,20 @@
       }
     },
     "sectionalTimeBound": {
-      "type": "string"
-    },
-    "sectionalPassPercentage": {
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No"
+      ]
     },
     "questionTagging": {
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "Proficiency",
+        "EMDH"
+      ]
     },
-    "totalMarksofTest": {
+    "totalMarks": {
       "type": "number"
     }
   },
