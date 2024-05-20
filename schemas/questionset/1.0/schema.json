@@ -757,7 +757,11 @@
       ]
     },
     "assessmentType" : {
-      "type" : "string"
+      "type" : "string",
+      "enum": [
+        "questionWeightage",
+        "optionalWeightage"
+      ]
     },
     "noOfSection": {
       "type": "number"
@@ -783,28 +787,22 @@
       ]
     },
     "questionLevelDefinition": {
-      "type": "object",
-      "properties": {
-        "easy": {
-          "type": "number"
-        },
-        "tough": {
-          "type": "number"
-        },
-        "hard": {
-          "type": "number"
-        },
-        "hot": {
-          "type": "number"
-        }
-      }
+      "type": "object"
     },
-    "sectionalTimeBound": {
+    "sectionalPassPercentage" : {
       "type": "string",
       "enum": [
         "Yes",
         "No"
       ]
+    },
+    "questionSectionScheme": {
+      "type": "object",
+      "properties": {
+        "sections[0-9]+$": {
+          "type": "object"
+        }
+      }
     },
     "questionTagging": {
       "type": "string",
@@ -813,9 +811,20 @@
         "EMDH"
       ]
     },
+    "maxSection": {
+      "type": "number"
+    },
+    "sectionTimeBound": {
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
     "totalMarks": {
       "type": "number"
     }
+
   },
   "additionalProperties": false
 }
