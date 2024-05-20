@@ -804,6 +804,13 @@
         }
       }
     },
+    "sectionalTimeBound": {
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
     "questionTagging": {
       "type": "string",
       "enum": [

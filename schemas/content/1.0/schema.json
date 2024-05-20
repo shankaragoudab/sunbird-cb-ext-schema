@@ -491,7 +491,12 @@
                 "Course",
                 "Theory",
                 "Worksheet",
-                "Practical"
+                "Practical",
+                "Youtube",
+                "MP3",
+                "MP4",
+                "PDF",
+                "Link"
             ]
         },
         "category": {
