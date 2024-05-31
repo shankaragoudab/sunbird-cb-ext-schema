@@ -428,7 +428,9 @@
         "SA",
         "MCQ-MCA",
         "MCQ-SCA",
-        "MTF"
+        "MTF",
+        "MCA-SCA-TF",
+        "MCQ-MCA-W"
       ]
     },
     "scoringMode": {
