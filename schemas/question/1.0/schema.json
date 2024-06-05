@@ -635,6 +635,9 @@
     },
     "questionLevel": {
       "type": "string"
+    },
+    "totalMarks": {
+      "type": "number"
     }
   },
   "additionalProperties": false
