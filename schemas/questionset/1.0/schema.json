@@ -786,7 +786,7 @@
         "No"
       ]
     },
-    "assessmentLevelDefinition": {
+    "sectionLevelDefinition": {
       "type": "object"
     },
     "sectionalPassPercentage" : {
