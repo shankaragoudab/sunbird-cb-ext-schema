@@ -91,7 +91,9 @@
                 "application/quiz",
                 "application/survey",
                 "application/offline",
-                "external/redirect"
+                "external/redirect",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "application/vnd.ms-powerpoint"
             ]
         },
         "osId": {
