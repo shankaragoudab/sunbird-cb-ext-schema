@@ -87,7 +87,9 @@
                 "audio/x-wav",
                 "audio/wav",
                 "application/json",
-                "external/redirect"
+                "external/redirect",
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "application/vnd.ms-powerpoint"
             ]
         },
         "osId": {
