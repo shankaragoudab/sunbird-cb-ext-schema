@@ -1463,6 +1463,12 @@
       "items": {
         "type": "object"
       }
+    },
+    "referenceNodes": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
     }
   }
 }
