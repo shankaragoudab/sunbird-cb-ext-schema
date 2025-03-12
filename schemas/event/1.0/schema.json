@@ -319,7 +319,7 @@
          "resourceType": {
             "type": "string"
         },
-        "testResourceTypeDetails": {
+        "resourceTypeDetails": {
             "type": "object",
             "properties": {
                 "stateOrMinistryName": {
