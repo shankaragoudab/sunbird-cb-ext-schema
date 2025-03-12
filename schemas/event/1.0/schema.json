@@ -315,6 +315,26 @@
         },
         "endDateTime":{
             "type":"string"
+        },
+         "resourceType": {
+            "type": "string"
+        },
+        "testResourceTypeDetails": {
+            "type": "object",
+            "properties": {
+                "stateOrMinistryName": {
+                    "type": "string"
+                },
+                "stateOrMinistryId" : {
+                    "type": "string
+                },
+                "year": {
+                    "type": "string"
+                },
+                "certTemplate": {
+                    "type": "string"
+                }
+            }
         }
     }
 }
