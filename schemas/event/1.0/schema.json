@@ -326,7 +326,7 @@
                     "type": "string"
                 },
                 "stateOrMinistryId" : {
-                    "type": "string
+                    "type": "string"
                 },
                 "year": {
                     "type": "string"
