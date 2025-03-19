@@ -55,7 +55,7 @@
     "targetMediumIds",
     "targetTopicIds"
   ],
-  "version": "enable",
+  "version": "disable",
   "versionCheckMode": "OFF",
   "cacheEnabled": false,
   "schema_restrict_api": false
