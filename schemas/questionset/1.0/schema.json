@@ -862,6 +862,12 @@
       "items": {
          "type": "object"
       }
+    },
+    "contextCategory": {
+      "type": "string",
+      "enum": [
+        "Final Program Assessment"
+      ]
     }
   },
   "additionalProperties": false
