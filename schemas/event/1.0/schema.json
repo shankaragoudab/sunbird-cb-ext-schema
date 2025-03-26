@@ -335,6 +335,12 @@
                     "type": "string"
                 }
             }
+        },
+        "startDateTimeInEpoch":{
+            "type": "number"
+        },
+        "endDateTimeInEpoch":{
+            "type": "number"
         }
     }
 }
