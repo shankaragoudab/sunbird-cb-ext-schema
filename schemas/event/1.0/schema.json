@@ -336,11 +336,13 @@
                 }
             }
         },
-        "startDateTimeInEpoch":{
-            "type": "number"
+        "startDateTimeInEpoch": {
+            "type": "date",
+            "format": "epoch_millis"
         },
-        "endDateTimeInEpoch":{
-            "type": "number"
+        "endDateTimeInEpoch": {
+            "type": "date",
+            "format": "epoch_millis"
         }
     }
 }
