@@ -56,7 +56,7 @@
     "targetTopicIds"
   ],
   "version": "enable",
-  "versionCheckMode": "OFF",
+  "versionCheckMode": "ON",
   "cacheEnabled": false,
   "schema_restrict_api": false
 }
