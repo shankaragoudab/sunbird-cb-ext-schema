@@ -868,6 +868,12 @@
       "enum": [
         "Final Program Assessment"
       ]
+    },
+    "sectorDetails_v1": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
     }
   },
   "additionalProperties": false

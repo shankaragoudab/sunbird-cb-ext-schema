@@ -341,6 +341,12 @@
         },
         "endDateTimeInEpoch":{
             "type": "number"
+        },
+        "sectorDetails_v1": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
         }
     }
 }
