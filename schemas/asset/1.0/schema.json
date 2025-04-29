@@ -89,7 +89,8 @@
                 "application/json",
                 "external/redirect",
                 "application/vnd.openxmlformats-officedocument.presentationml.presentation",
-                "application/vnd.ms-powerpoint"
+                "application/vnd.ms-powerpoint",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
             ]
         },
         "osId": {
