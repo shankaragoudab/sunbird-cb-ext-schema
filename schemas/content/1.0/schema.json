@@ -1535,6 +1535,12 @@
           "items": {
             "type": "object"
           }
+        },
+        "durationInSeconds": {
+            "type": "number"
+        },
+        "accessSettingsEnabled" : {
+        "type": "boolean"
         }
     }
 }
