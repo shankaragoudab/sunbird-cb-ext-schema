@@ -1413,7 +1413,8 @@
         "Moderated Assessment",
         "Invite-Only Assessment",
         "External Redirect",
-        "Case Study"
+        "Case Study",
+        "Comprehensive Assessment Program"
       ]
     },
     "contentTagNames": {
@@ -1478,6 +1479,12 @@
     },
     "accessSettingsEnabled" : {
       "type": "boolean"
+    },
+        "startDate": {
+      "type": "string"
+    },
+        "endDate": {
+      "type": "string"
     }
   }
 }
