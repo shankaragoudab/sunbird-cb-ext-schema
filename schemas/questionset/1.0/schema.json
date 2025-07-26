@@ -867,7 +867,7 @@
       "type": "string",
       "enum": [
         "Final Program Assessment",
-        "Final Program Assessment Unlocked"
+        "Final Program Assessment UnLocked"
       ]
     },
     "sectorDetails_v1": {
