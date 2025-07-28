@@ -867,7 +867,8 @@
       "type": "string",
       "enum": [
         "Final Program Assessment",
-        "Final Program Assessment UnLocked"
+        "Final Program Assessment UnLocked",
+        "Pre Enrolment Assessment"
       ]
     },
     "sectorDetails_v1": {
@@ -875,6 +876,9 @@
       "items": {
         "type": "object"
       }
+    },
+    "isMandatory": {
+        "type": "boolean"
     }
   },
   "additionalProperties": false

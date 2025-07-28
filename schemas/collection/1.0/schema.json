@@ -4,7 +4,6 @@
   "title": "Collection",
   "type": "object",
   "required": [
-    "name",
     "status",
     "mimeType",
     "channel",
@@ -1414,7 +1413,9 @@
         "Invite-Only Assessment",
         "External Redirect",
         "Case Study",
-        "Comprehensive Assessment Program"
+        "Comprehensive Assessment Program",
+        "Multilingual Course",
+        "Pre Enrolment Assessment"
       ]
     },
     "contentTagNames": {
@@ -1480,10 +1481,34 @@
     "accessSettingsEnabled" : {
       "type": "boolean"
     },
-        "startDate": {
+    "contextCategory": {
+      "type": "string",
+      "enum": [
+        "Pre Read Course"
+      ]
+    },
+    "preEnrolmentResources": {
+      "type": "array",
+      "items": {
+          "type": "object"
+      }
+    },
+    "isMandatory": {
+        "type": "boolean"
+    },
+    "startDate": {
       "type": "string"
     },
-        "endDate": {
+    "endDate": {
+      "type": "string"
+    },
+    "languageMapV1": {
+      "type": "object"
+    },
+    "startDate": {
+      "type": "string"
+    },
+    "endDate": {
       "type": "string"
     }
   }
