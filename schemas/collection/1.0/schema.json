@@ -1139,6 +1139,7 @@
     "reviewStatus" : {
       "type" : "string",
       "enum": [
+        "Draft",
         "InReview",
         "Reviewed",
         "SentToPublish"
