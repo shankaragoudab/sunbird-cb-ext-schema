@@ -1139,6 +1139,7 @@
     "reviewStatus" : {
       "type" : "string",
       "enum": [
+        "Live",
         "Draft",
         "InReview",
         "Reviewed",
