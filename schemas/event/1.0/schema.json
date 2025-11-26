@@ -375,6 +375,18 @@
         },
         "courseLinked": {
           "type": "string"
+        },
+        "preEventReads": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "postEventSummary" : {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
     }
 }
