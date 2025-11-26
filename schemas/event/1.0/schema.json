@@ -350,6 +350,31 @@
         },
         "durationInSeconds":{
             "type": "number"
+        },
+        "maxEnrolments": {
+          "type": "number"
+        },
+        "meetingAgenda": {
+          "type": "string"
+        },
+        "creatorDetails": {
+          "type": "string"
+        },
+        "recordedMediaLink": {
+          "type": "string",
+          "format": "url"
+        },
+        "noOfAttendes": {
+          "type": "number"
+        },
+        "eventDuration": {
+          "type": "number"
+        },
+        "meetingSummary": {
+          "type": "string"
+        },
+        "courseLinked": {
+          "type": "string"
         }
     }
 }
