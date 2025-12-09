@@ -428,7 +428,8 @@
         "LearningActivity",
         "PreviousBoardExamPapers",
         "LessonPlanResource",
-        "TVLesson"
+        "TVLesson",
+        "LearningPathway"
       ]
     },
     "resourceType": {
@@ -1417,7 +1418,8 @@
         "Case Study",
         "Comprehensive Assessment Program",
         "Multilingual Course",
-        "Pre Enrolment Assessment"
+        "Pre Enrolment Assessment",
+        "Learning Pathway"
       ]
     },
     "contentTagNames": {
