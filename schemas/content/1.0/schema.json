@@ -1567,6 +1567,12 @@
         },
         "retirementDate": {
             "type": "string"
+        },
+        "test_milestones": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
         }
     }
 }
