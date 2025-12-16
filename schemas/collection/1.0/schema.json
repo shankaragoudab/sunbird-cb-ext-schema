@@ -1523,6 +1523,12 @@
     },  
     "previousVersionCourseId": {
       "type": "object"
+    },
+    "test_milestones_v2": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
     }      
   }
 }
