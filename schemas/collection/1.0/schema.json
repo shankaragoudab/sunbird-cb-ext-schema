@@ -1514,6 +1514,15 @@
     },
     "endDate": {
       "type": "string"
-    }
+    },
+    "contentVersionInfo": {
+      "type": "object"
+    },  
+    "contentVersion": {
+      "type": "object"
+    },  
+    "previousVersionCourseId": {
+      "type": "object"
+    }      
   }
 }
