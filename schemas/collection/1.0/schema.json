@@ -1524,7 +1524,7 @@
     "previousVersionCourseId": {
       "type": "string"
     },
-    "test_milestones_v2": {
+    "milestonesV1": {
       "type": "array",
       "items": {
         "type": "object"
