@@ -1568,7 +1568,7 @@
         "retirementDate": {
             "type": "string"
         },
-        "test_milestones_v4": {
+        "milestones_v1": {
           "type": "array",
           "items": {
             "type": "object"
