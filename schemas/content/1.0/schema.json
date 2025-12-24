@@ -1553,6 +1553,35 @@
         },
         "languageMapV1": {
             "type": "object"
+        },
+        "contentRetiredStatus": {
+            "type": "string",
+            "enum": [
+                "PendingRetirement",
+                "PendingApproval",
+                "Rejected"
+            ]
+        },
+        "lastEnrollmentDate": {
+            "type": "string"
+        },
+        "retirementDate": {
+            "type": "string"
+        },
+        "milestones_v1": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "contentVersionInfo": {
+          "type": "object"
+        },
+        "previousVersionCourseId": {
+            "type": "string"
+        },
+        "contentVersion": {
+            "type": "string"
         }
     }
 }
