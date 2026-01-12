@@ -868,7 +868,9 @@
       "enum": [
         "Final Program Assessment",
         "Final Program Assessment UnLocked",
-        "Pre Enrolment Assessment"
+        "Pre Enrolment Assessment",
+        "Preliminiary Assessment",
+        "Final Milestone Assessment"
       ]
     },
     "sectorDetails_v1": {
@@ -879,6 +881,9 @@
     },
     "isMandatory": {
         "type": "boolean"
+    },  
+    "coolOffPeriod": {
+        "type": "number"
     }
   },
   "additionalProperties": false
