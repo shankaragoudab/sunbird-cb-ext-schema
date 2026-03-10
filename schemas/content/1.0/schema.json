@@ -1583,7 +1583,7 @@
         "contentVersion": {
             "type": "string"
         },
-        "badgeDetails_v1": {
+        "badgeDetails_test": {
             "type": "array",
             "items": {
                 "type": "object"
