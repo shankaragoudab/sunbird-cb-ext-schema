@@ -1530,7 +1530,7 @@
         "type": "object"
       }
     },
-    "badgeDetails_test": {
+    "badgeDetails_v1": {
       "type": "array",
       "items": {
         "type": "object"
