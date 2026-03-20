@@ -387,6 +387,12 @@
           "items": {
             "type": "string"
           }
+        },
+        "certTemplate": {
+            "type": "string"
+        },
+        "certTemplateId": {
+            "type": "string"
         }
     }
 }
