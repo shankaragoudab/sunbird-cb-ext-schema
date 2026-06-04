@@ -18,9 +18,7 @@
     "properties": {
         "name": {
             "type": "string",
-            "minLength": 5,
-            "pattern": "^[^<>{}\\[\\]]*$",
-            "maxLength": 1000
+            "minLength": 5
         },
         "code": {
             "type": "string"
