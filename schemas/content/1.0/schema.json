@@ -18,7 +18,9 @@
     "properties": {
         "name": {
             "type": "string",
-            "minLength": 5
+            "minLength": 5,
+            "pattern": "^[a-zA-Z0-9._ \\-$/\\\\:\\[\\]'!]*$",
+            "maxLength": 70
         },
         "code": {
             "type": "string"
@@ -715,7 +717,8 @@
             ]
         },
         "description": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 1000
         },
         "instructions": {
             "type": "string"
