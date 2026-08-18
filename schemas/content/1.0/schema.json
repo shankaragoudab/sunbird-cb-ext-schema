@@ -1592,6 +1592,12 @@
             "items": {
                 "type": "object"
             }
+        },
+        "targetAudiences": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
         }
     }
 }

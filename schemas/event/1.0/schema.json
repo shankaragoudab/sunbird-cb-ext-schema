@@ -394,6 +394,12 @@
         },
         "certTemplateId": {
             "type": "string"
+        },
+        "targetAudiences": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
         }
     }
 }
