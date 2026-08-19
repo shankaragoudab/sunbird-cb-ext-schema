@@ -718,7 +718,7 @@
         },
         "description": {
             "type": "string",
-            "maxLength": 1000
+            "format": "html-maxlength-1000"
         },
         "instructions": {
             "type": "string"
