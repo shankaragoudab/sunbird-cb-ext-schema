@@ -1545,6 +1545,9 @@
       "items": {
           "type": "string"
       }
+    },
+    "isTrackable": {
+        "type": "boolean"
     }
   }
 }
